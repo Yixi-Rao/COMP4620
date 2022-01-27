@@ -1,0 +1,51 @@
+<(),room1,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(),start,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(),room2,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(),room4,frozenset({'room1', 'start', 'room2', 'room4'})>,
+
+<(peon,),room1,frozenset({'room1', 'start', 'room2', 'room4'})>
+<(peon,),start,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(peon,),room4,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(peon,),room2,frozenset({'room1', 'start', 'room2', 'room4'})>,
+
+<(soldier,),start,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(soldier,),room2,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(soldier,),room1,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(soldier,),room4,frozenset({'room1', 'start', 'room2', 'room4'})>,
+
+<(peon, peon),room4,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(peon, peon),room1,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(peon, peon),start,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(peon, peon),room2,frozenset({'room1', 'start', 'room2', 'room4'})>,
+
+<(peon, soldier),room1,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(peon, soldier),room2,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(peon, soldier),room4,frozenset({'room1', 'start', 'room2', 'room4'})>,
+<(peon, soldier),start,frozenset({'room1', 'start', 'room2', 'room4'})>,
+
+<(soldier, peon),room1,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(soldier, peon),start,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(soldier, peon),room2,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(soldier, peon),room4,frozenset({'room1', 'start', 'room2', 'room4'})>
+
+<(soldier, soldier),room1,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(soldier, soldier),room4,frozenset({'room1', 'start', 'room2', 'room4'})>,  
+<(soldier, soldier),room2,frozenset({'room1', 'start', 'room2', 'room4'})>, 
+<(soldier, soldier),start,frozenset({'room1', 'start', 'room2', 'room4'})>,
+
+--------------------------------------------------------------------------------
+
+<(peon, peon),start,frozenset({'start', 'room2'})>, 
+<(peon, soldier),room2,frozenset({'start', 'room2'})>, 
+<(soldier,),start,frozenset({'start', 'room2'})>, 
+<(peon,),room2,frozenset({'start', 'room2'})>, 
+<(soldier, peon),start,frozenset({'start', 'room2'})>, 
+<(soldier, soldier),start,frozenset({'start', 'room2'})>, 
+<(peon, soldier),start,frozenset({'start', 'room2'})>, 
+<(),start,frozenset({'start', 'room2'})>, 
+<(),room2,frozenset({'start', 'room2'})>, 
+<(soldier,),room2,frozenset({'start', 'room2'})>, 
+<(peon, peon),room2,frozenset({'start', 'room2'})>, 
+<(soldier, peon),room2,frozenset({'start', 'room2'})>, 
+<(peon,),start,frozenset({'start', 'room2'})>, 
+<(soldier, soldier),room2,frozenset({'start', 'room2'})>]
